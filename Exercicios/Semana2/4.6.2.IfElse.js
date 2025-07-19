@@ -21,3 +21,21 @@ else{
 console.log("Deu pra passar em calculo?");
 console.log((resultado) ? "Sim" : "Não");
 
+
+
+
+let valor = 31.60;
+let centavos;
+let precisaDeMoeda = false;
+
+if(valor % 2 != 0){
+
+    precisaDeMoeda = true;
+}
+
+if(parseInt(valor) != valor && valor - parseInt(valor) >= 5){
+
+    precisaDeMoeda = true;
+}
+
+console.log(precisaDeMoeda ? "Precisa de moeda" : "Não Precisa de moeda");

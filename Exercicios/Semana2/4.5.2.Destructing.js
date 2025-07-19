@@ -26,4 +26,15 @@ console.log(b);
 console.log(c);
 
 // 2.
+let person = {
+    name: null,
+    age: null,
+    city: null,
+};
 
+
+person = ["John", "30", "New York"];
+
+console.log(person.name);
+console.log(person.age);
+console.log(person.city);
